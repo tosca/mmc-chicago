@@ -87,12 +87,24 @@ li {
 	padding-left: 2rem;
 	padding-right: 2rem;
 }
+.pad-20 {
+	padding: 20px;	
+}
 .m-lr40 {
 	margin-right:40px;
 	margin-left: 40px;
 }
 .mtop {
 	margin-top: 40px;
+}
+.m-t20 {
+	margin-top: 20px;
+}
+a {
+	color:rgb(207, 202, 202);
+}
+a:hover{
+	color: darkgray;
 }
 #wrapper {
 	position: absolute;
@@ -105,6 +117,14 @@ li {
     border-style: solid;
     border-width: 0;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.home-bg {
+	background-image: url("img/MMC.home.banr.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center center;
+	width: 100%;
+	height: 250px;
 }
 .left-box {
     float: left;
@@ -450,12 +470,12 @@ img-responsive {
 	-webkit-transition: all 350ms ease-in-out 0s;
 }
 .products-card {
-    background-color: #a6a5b5;
+    border: 2px solid light-grey;
     box-shadow: 3px 3px 2px #2f4f4fbf;
 	margin: 25px auto;
 }
 .products-card-text {
-    padding: 7px 0;
+    padding: 7px 3px;
     background-color: #1f3072;
     text-align: center;
     color: white;

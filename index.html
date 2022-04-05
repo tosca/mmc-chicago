@@ -86,10 +86,10 @@
     <nav id="navbar_top" class="navbar navbar-expand-lg navbar-light">
         <div class="container">
             <a class="navbar-brand signature" href="#home">
-                <img src="img/MMC-logo.jpg" width="120" height="42" alt="MMC Logo" />
+                <img src="img/MMC-logo.jpg" width="120" height="auto" alt="MMC Logo" />
             </a>
             <a href="#contact">
-                <button class="btn btn-danger ml-auto" role="button" id="quote">Request a Quote</a>               
+                <button class="btn btn-danger ml-auto" role="button" style="color:white" id="quote">Request a Quote</a>               
             </a>
             <button class="navbar-toggler ml-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="#navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -118,34 +118,11 @@
             </div> 
         </div>    
     </nav>      
- <section id="home">       
-        <div class="slider">
-            <div class="tp-banner" style="margin-top:0px; margin-bottom: 0px">
-                <ul>
-                    <li data-delay="9000" data-transition="fade" data-slotamount="7" data-masterspeed="2000">
-                        <div class="elements">
-                            <div class="tp-caption lft skewtotop title white" data-x="137" data-y="80" data-speed="1000" data-start="1700" data-easing="Power4.easeOut" data-endspeed="500" data-endeasing="Power1.easeIn">
-                                <img src="img/MMC_hvacspecial.png" width="800" alt="MMC - Heating, Air Conditioning & Air Comfort Specialists" />
-                            </div>
-                            <div class="tp-caption lft skewtotop title" data-x="370" data-y="220" data-speed="1000" data-start="2000" data-easing="Power4.easeOut" data-endspeed="500" data-endeasing="Power1.easeIn">
-                                <img src="img/total-team.png" width="780" height="60" alt="MMC HVAC- Your Total Indoor Comfort Team" />
-                            </div>
-                            <!--  <div class="tp-caption lfb" data-x="100" data-y="470" data-speed="1000" data-start="2440" data-easing="Power4.easeOut" data-endspeed="500" data-endeasing="Power1.easeIn" style="z-index: 4">
-                                    <img src="img/GTbuilders.jpg" with="150" alt="MMC fall maintenance 2020" />   
-                            </div>
-                            <div>
-                                <a href="#contact-form" class="tp-caption lfb btn-sm btn-danger" data-x="600" data-y="470" data-speed="1000" data-start="2840" data-easing="Power4.easeOut" data-endspeed="500" data-endeasing="Power1.easeIn"><h5 class="white text-center">Contact us to<br />Schedule Maintenance</h5></a>
-                            </div>-->
-                        </div>
-                        <img src="img/MMC.home.banr.jpg" alt="Midtown Mechanical Corporation - Chicago spring 2022" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat" /> 
-                    </li>
-                </ul>
-                <div class="tp-bannertimer"></div>
-            </div>
-        </div>
-    </section>
+    <section id="home">
+        <img src="img/MMC.home.banr-2.jpg">
+     </section>
     <section id="about-us" class="page-section">
-        <div class="">
+        <div class="container">
             <div class="section-title">    
             </div>
             <div class="row">
@@ -170,9 +147,11 @@
                 </div>
             </div>
         </div>
+        <hr />
         <div class="section-title">
             <h2 class="title blue">products</h2>
-        <hr>
+        </div>
+        
         <div class="row">
             <div class="col-sm-3">
                 <div class="products-card text-center">
@@ -181,8 +160,6 @@
                     <div class="products-card-text">
                         <p>Carrier Home Comfort Systems<br />
                         Carrier Commercial HVAC Solutions<br />
-                        Guardian Cooling Systems<br />
-                        Ducane Cooling Equipment
                         </p>
                     </div>
                 </div>
@@ -191,11 +168,10 @@
             <div class="col-sm-3">
                 <div class="products-card text-center">
                     <h4>HEATING</h4>
-                    <img src="img/guardian-heating.jpg" alt="Guardian Heaters" />
+                    <img src="img/carrierfurnace.jpg" alt="Carrier Heaters" />
                     <div class="products-card-text">
-                        <p> Carrier Heaters<br />
-                            Guardian Heaters<br />
-                            Ducane Heaters
+                        <p> Carrier furnaces<br />
+                            Carrier Heat Pumps<br />
                         </p>
                     </div>
                 </div>
@@ -204,7 +180,7 @@
             <div class="col-sm-3">
                 <div class="products-card text-center">
                     <h4>AIR COMFORT</h4>
-                    <img src="img/AprilaireWiThermo.jpg" />
+                    <img src="img/AprilaireWiThermo.jpg" alt="Aprilaire WiThermostate" />
                     <div class="products-card-text">
                         <p>Aprilaire Wifi Thermostats<br />
                             Aprilaire Humidifiers <br />
@@ -218,7 +194,7 @@
             <div class="col-sm-3">
                 <div class="products-card text-center">
                     <h4>SERVICE</h4>
-                    <img src="img/mmc-serviceman.jpg" />
+                    <img class="p-lr" src="img/mmc-serviceman.jpg" alt="MMC Serviceman servicing a furnace" />
                     <div class="products-card-text">
                         <p>Contract Free Preventative Maintenance<br />
                             Prompt Response<br />
@@ -231,11 +207,11 @@
             </div>
         </div>
     </section>
+    <hr>
     <section id="service" class="page-section">
         <div class="section-title">
             <h2 class="title blue">Expert Service Technicians</h2>
-        <hr>
-        </div>
+         </div>
         <div class="container">
             <div class="row">
                 <div class="col-sm-4">        
@@ -246,8 +222,7 @@
                     <p class="blue">
                         Rely on us to respond promptly to your needs, no matter when an air conditioning problem occurs.
                     </p>
-                    <p>
-                        Our expert AC technicians will arrive on time, and when it is convenient for you. We will quickly diagnose your AC problem and prepare an estimate for the needed repairs. After discussing the estimate with you, answering all your questions, and getting your approval, we'll make the AC repairs quickly and efficiently. Our customers' confidence in us is justified by our long experience in this field and our outstanding service record.
+                    <p> Our expert AC technicians will arrive on time, and when it is convenient for you. We will quickly diagnose your AC problem and prepare an estimate for the needed repairs. After discussing the estimate with you, answering all your questions, and getting your approval, we'll make the AC repairs quickly and efficiently. Our customers' confidence in us is justified by our long experience in this field and our outstanding service record.
                     </p> 
                     <h4 class="title blue">Manufacturers Support</h4>
                     <p>Our years of loyalty with our manufacturers, benefits our clients when we need urgent and accurate support.</p>
@@ -263,6 +238,7 @@
             </div>
         </div>
     </section>
+    <hr />
     <section id="projects" class="page-section">
         <div class="image-bg content-in fixed" data-background="img/mmc-bldg-02.jpg">
                 <div class="overlay"></div>
@@ -278,74 +254,73 @@
             </div>
             <div class="wrapper">
                 <div class="one"> 
-                    <img src="img/projects/project-06.jpg" alt="Midtown Mechanical Corp. Project 5" class="img-responsive" />
+                    <img src="img/projects/project-06.jpg" alt="Midtown Mechanical Corp. Heating & A/C Projects" class="img-responsive" />
                 </div>
                 <div class="two">
-                    <img src="img/projects/project-34.jpg" alt="Midtown Mechanical Corp. Project 2" class="img-responsive" />
+                    <img src="img/projects/project-07.jpg" alt="Midtown Mechanical Corp. Heating & A/C Projects" class="img-responsive" />
                 </div>
                 <div class="three">
-                    <img src="img/projects/project-03.jpg" alt="Midtown Mechanical Corp. Project 3" class="img-responsive" />
+                    <img src="img/projects/project-03.jpg" alt="Midtown Mechanical Corp. Heating & A/C Projects" class="img-responsive" />
                 </div>
                 <div class="four">
-                    <img src="img/projects/project-07.jpg" alt="Midtown Mechanical Corp. Project 7" class="img-responsive" />
+                    <img src="img/projects/project-34.jpg" alt="Midtown Mechanical Corp. Heating & A/C Projects" class="img-responsive" />
                 </div>
                 <div class="five">
-                    <img src="img/projects/project-30.jpg" alt="Midtown Mechanical Corp. Project 30" class="img-responsive" />
+                    <img src="img/projects/project-30.jpg" alt="Midtown Mechanical Corp. Heating & A/C Projects" class="img-responsive" />
                 </div>
                 <div class="six">
-                    <img src="img/projects/project-32.jpg" alt="Midtown Mechanical Corp. Project 32" class="img-responsive" />
+                    <img src="img/projects/project-32.jpg" alt="Midtown Mechanical Corp. Heating & A/C Projects" class="img-responsive" />
                 </div>
                 <div class="seven">
-                    <img src="img/projects/project-04.jpg" alt="Midtown Mechanical Corp. Project 32" class="img-responsive" />
+                    <img src="img/projects/project-04.jpg" alt="Midtown Mechanical Corp. Heating & A/C Projects" class="img-responsive" />
                 </div>
                 <div class="eight">
-                    <img src="img/projects/project-21.jpg" alt="Midtown Mechanical Corp. Project 32" class="img-responsive" />
+                    <img src="img/projects/project-21.jpg" alt="Midtown Mechanical Corp. Heating & A/C Projects" class="img-responsive" />
                 </div>
                 <div class="nine">
-                    <img src="img/projects/project-08.jpg" alt="Midtown Mechanical Corp. Project 32" class="img-responsive" />
+                    <img src="img/projects/project-08.jpg" alt="Midtown Mechanical Corp. Heating & A/C Projects" class="img-responsive" />
                 </div>
                 <div class="ten">
-                    <img src="img/projects/project-22.jpg" alt="Midtown Mechanical Corp. Project 32" class="img-responsive" />
+                    <img src="img/projects/project-22.jpg" alt="Midtown Mechanical Corp. Heating & A/C Projects" class="img-responsive" />
                 </div>
                 <div class="eleven">
-                    <img src="img/projects/project-23.jpg" alt="Midtown Mechanical Corp. Project 32" class="img-responsive" />
+                    <img src="img/projects/project-23.jpg" alt="Midtown Mechanical Corp. Heating & A/C Projects" class="img-responsive" />
                 </div>
                 <div class="twelve">
-                    <img src="img/projects/project-24.jpg" alt="Midtown Mechanical Corp. Project 32" class="img-responsive" />
+                    <img src="img/projects/project-24.jpg" alt="Midtown Mechanical Corp. Heating & A/C Projects" class="img-responsive" />
                 </div>
                 <div class="thirteen">
-                    <img src="img/projects/project-12.jpg" alt="Midtown Mechanical Corp. Project 32" class="img-responsive" />
+                    <img src="img/projects/project-12.jpg" alt="Midtown Mechanical Corp. Heating & A/C Projects" class="img-responsive" />
                 </div>
                 <div class="fourteen">
-                    <img src="img/projects/project-13.jpg" alt="Midtown Mechanical Corp. Project 32" class="img-responsive" />
+                    <img src="img/projects/project-13.jpg" alt="Midtown Mechanical Corp. Heating & A/C Projects" class="img-responsive" />
                 </div>
                 <div class="fifteen">
-                    <img src="img/projects/project-14.jpg" alt="Midtown Mechanical Corp. Project 32" class="img-responsive" />
+                    <img src="img/projects/project-14.jpg" alt="Midtown Mechanical Corp. Heating & A/C Projects" class="img-responsive" />
                 </div>
                 <div class="sixteen">
-                    <img src="img/projects/project-15.jpg" alt="Midtown Mechanical Corp. Project 32" class="img-responsive" />
+                    <img src="img/projects/project-15.jpg" alt="Midtown Mechanical Corp. Heating & A/C Projects" class="img-responsive" />
                 </div>
                 <div class="seventeen">
-                    <img src="img/projects/project-16.jpg" alt="Midtown Mechanical Corp. Project 32" class="img-responsive" />
+                    <img src="img/projects/project-16.jpg" alt="Midtown Mechanical Corp. Heating & A/C Projects" class="img-responsive" />
                 </div>
                  <div class="eighteen">
-                    <img src="img/projects/project-17.jpg" alt="Midtown Mechanical Corp. Project 32" class="img-responsive" />
+                    <img src="img/projects/project-17.jpg" alt="Midtown Mechanical Corp. Heating & A/C Projects" class="img-responsive" />
                 </div>
                 <div class="nineteen">
-                    <img src="img/projects/project-18.jpg" alt="Midtown Mechanical Corp. Project 32" class="img-responsive" />
+                    <img src="img/projects/project-18.jpg" alt="Midtown Mechanical Corp. Heating & A/C Projects" class="img-responsive" />
                 </div>
                 <div class="twenty">
-                    <img src="img/projects/project-19.jpg" alt="Midtown Mechanical Corp. Project 32" class="img-responsive" />
+                    <img src="img/projects/project-19.jpg" alt="Midtown Mechanical Corp. Heating & A/C Projects" class="img-responsive" />
                 </div>
                  <div class="twenty-one">
-                    <img src="img/projects/project-20.jpg" alt="Midtown Mechanical Corp. Project 32" class="img-responsive" />
+                    <img src="img/projects/project-20.jpg" alt="Midtown Mechanical Corp. Heating & A/C Projects" class="img-responsive" />
                 </div>
             </div>   
     </section>
+    <hr />
     <section id="cooling" class="page-section">
-        <hr />
-        <h2 class="title red">COOLING</h2>
-        <div role="tabpanel" class="right-tabs">
+       <div role="tabpanel" class="right-tabs">
             <ul class="nav nav-tabs flex-column" id="mmcTab" role="tablist">
                 <li class="nav-item" role="presentation">
                     <button class="nav-link active" id="actips-tab" data-bs-toggle="tab" data-bs-target="#cooling-tips" type="button" role="tab" aria-controls="cooling-tips" aria-selected="true"><div class="title">A/C TIPS</div></button>
@@ -361,6 +336,7 @@
                 </li>
             </ul>
         </div>
+        <h2 class="title red">COOLING</h2>
         <div class="tab-content" id="acTabContent">
             <!-- cooling-tips -->
             <div class="tab-pane fade show active" id="cooling-tips" aria-labelledby="actips-tab">
@@ -372,13 +348,13 @@
                 <img src="img/projects/project-26.jpg" alt="Carrier air conditioner" class="left-box p-3" />
                 <h4 class="title green">Air Conditioner Spring Maintenance Tips</h4>
                 <ul>
-                    <li><img src="img/rightarrow.png" /> Shut off power to your central A/C before beginning any air conditioner maintenance.</li>
-                    <li><img src="img/rightarrow.png" /> Check your refrigerant levels by feeling the pipe connected to your A/C unit. If it doesn't feel cool-ish (around 60 degrees), you may be low on refrigerant.</li>
-                    <li><img src="img/rightarrow.png" /> Don't forget to replace dirty A/C filters! They put more strain on your A/C unit than clean filters and increase your energy consumption.</li>
-                    <li><img src="img/rightarrow.png" /> Clean your air conditioner's ceiling registers. While this task doesn't affect your A/C unit directly, it does help ensure all its hard work doesn't go to waste.</li>
-                    <li><img src="img/rightarrow.png" /> Keep the area around your outdoor A/C unit free of grass, weeds and debris that could interfere with its performance.</li>
-                    <li><img src="img/rightarrow.png" /> If the concrete slab on which your outdoor A/C unit sits isn't level (use a carpenter's level to find out), add rocks, gravel, or dirt underneath to level it out to ensure your A/C runs as efficiently as possible</li>
-                    <li><img src="img/rightarrow.png" /> Have MMC clean your evaporator coil every couple years to prevent debris build-up.</li>
+                    <li>Shut off power to your central A/C before beginning any air conditioner maintenance.</li>
+                    <li>Check your refrigerant levels by feeling the pipe connected to your A/C unit. If it doesn't feel cool-ish (around 60 degrees), you may be low on refrigerant.</li>
+                    <li>Don't forget to replace dirty A/C filters! They put more strain on your A/C unit than clean filters and increase your energy consumption.</li>
+                    <li>Clean your air conditioner's ceiling registers. While this task doesn't affect your A/C unit directly, it does help ensure all its hard work doesn't go to waste.</li>
+                    <li>Keep the area around your outdoor A/C unit free of grass, weeds and debris that could interfere with its performance.</li>
+                    <li>If the concrete slab on which your outdoor A/C unit sits isn't level (use a carpenter's level to find out), add rocks, gravel, or dirt underneath to level it out to ensure your A/C runs as efficiently as possible</li>
+                    <li>Have MMC clean your evaporator coil every couple years to prevent debris build-up.</li>
                 </ul>
             </div>
             <!-- cooling-repair -->
@@ -411,7 +387,7 @@
                 </h6>
                 <br />
                 <h5>Call us at <a href="tel:7737228145" class="red">773-722-8145</a>
-                     or request an appointment using our online"><a class="title blue" href="#contact">Contact Form</a><img src="img/rightarrow.png" />
+                     or request an appointment using our online"><a class="title blue" href="#contact">Contact Form</a>
                 </h5>
                 <h6>Midtown Mechanical will service all of your air conditioning needs whether installing a new system, maintaining
                     your current system or repairing most major brands of your existing air conditioner. We can provide you with a quality
@@ -425,21 +401,20 @@
                 <h6>
                     We are equiped to service the total Chicago population of residential and commercial customers.
                 </h6>
-                <div class="right-nobox">
-                    <img src=img/carrier.gif" alt="Carrier Logo" />
-                    <img src=img/carrierInfinity21.jpg" alt="Carrier Air Conditioners" />
+                <div class="left-nobox">
                     <h4>Carrier Air Conditioners</h4>
+                    <img src="img/carrier.gif" alt="Carrier Logo" />
+                    <img src="img/carrierInfinity21.jpg" alt="Carrier Air Conditioners" />
                 </div>
                 <div class="right-nobox">
-                    <img src=img/AprilaireWiThermo.jpg" alt="Aprilaire WiFi Thermostats" />
                     <h4>Aprilaire WiFi Thermostats</h4>
-                </div>
+                    <img src="img/AprilaireWiThermo.jpg" alt="Aprilaire WiFi Thermostats" />
+                 </div>
             </div>
         </div>         
     </section>
+    <hr />
     <section id="heating" class="page-section">
-        <hr />
-        <h2 class="title red">HEATING</h2>   
         <div role="tabpanel" class="right-tabs">
             <ul class="nav nav-tabs flex-column" id="heatTab" role="tablist">
                 <li class="nav-item" role="presentation">
@@ -456,6 +431,7 @@
                 </li>  
             </ul>
         </div>
+        <h2 class="title red">HEATING</h2>   
         <div class="tab-content" id="heatTabContent">
             <!-- heating-tips -->
              <div class="tab-pane fade show active" id="furnace-tips" aria-labelledby="heat-tips">
@@ -468,20 +444,20 @@
                     and owner,Tom Walker and his experienced team, that our customers have come to know
                     and trust. Those returning customers have helped MMC grow into the HVAC company that you can see while driving the Eisenhower Expressway, today.
                 </div>
-                <img src="img/furnace-repair.jpg" alt="open furnace" class="right-box" />
+                <img src="img/furnace-repair.jpg" alt="open furnace" class="right-box p-3 " />
                 <h5 class="title red">Questions to ask about furnaces</h5>
                 <ul>
-                    <li><img src="img/rightarrow.png" /> Which is the best furnace on the market? </li>
-                    <li><img src="img/rightarrow.png" /> Is my furnace operating at peak performance? </li>
-                    <li><img src="img/rightarrow.png" /> Is my furnace energy efficient? </li>
-                    <li><img src="img/rightarrow.png" /> Could I save money on my utility bills with a new furnace?</li>
-                    <li><img src="img/rightarrow.png" /> How closely can I manage my home comfort with your line of furnaces? </li>
-                    <li><img src="img/rightarrow.png" /> Which furnaces have easy-to-clean filters? </li>
-                    <li><img src="img/rightarrow.png" /> Which of the heating manufacturers you represent have been around the longest? </li>
-                    <li><img src="img/rightarrow.png" /> How quickly can you typically respond in an emergency situation? </li>
-                    <li><img src="img/rightarrow.png" /> Do you have any special furnace service or maintenance plans? </li>
-                    <li><img src="img/rightarrow.png" /> What are your billing and payment methods and terms? </li>
-                    <li><img src="img/rightarrow.png" /> Do you have client references I could contact? </li>
+                    <li>Which is the best furnace on the market? </li>
+                    <li>Is my furnace operating at peak performance? </li>
+                    <li>Is my furnace energy efficient? </li>
+                    <li>Could I save money on my utility bills with a new furnace?</li>
+                    <li>How closely can I manage my home comfort with your line of furnaces? </li>
+                    <li>Which furnaces have easy-to-clean filters? </li>
+                    <li>Which of the heating manufacturers you represent have been around the longest? </li>
+                    <li>How quickly can you typically respond in an emergency situation? </li>
+                    <li>Do you have any special furnace service or maintenance plans? </li>
+                    <li>What are your billing and payment methods and terms? </li>
+                    <li>Do you have client references I could contact? </li>
                 </ul>
             </div>
             <!-- furnace-repair -->
@@ -497,12 +473,12 @@
                 <p>To familiarize yourself with your furnace you may want to review how a furnace works, and exercise some of the preventative maintenance yourself. Here are some things you can tackle: </p>
                 <img src="img/heatHouse.jpg" width="370" alt="heat map in house" class="right-box" />
                 <ul>
-                    <li><img src="img/rightarrow.png" /> Confirm that the furnace cycles through start-up to shut-down via your thermostat.</li>
-                    <li><img src="img/rightarrow.png" /> Check the supply (small grates in each room) and return air (large grates) temperature to make sure your thermostat is accurate.</li>
-                    <li><img src="img/rightarrow.png" /> Clean and level your thermostat. For older thermostats this ensures proper function since many of them have liquid mercury switches. And always, this is aesthetically more eye pleasing.</li>
-                    <li><img src="img/rightarrow.png" /> There is a safety switch on all furnace doors that “pops out” when the door is removed. Make sure this is unobstructed and clean</li>
-                    <li><img src="img/rightarrow.png" /> Look at all the visible wiring and electrical connections for burns or unraveling/loose wire nuts or tape. </li>
-                    <li><img src="img/rightarrow.png" /> Check the condition of your vent connection pipe and chimney for rust or gaps. Venting system parts can deteriorate over time.</li>
+                    <li>Confirm that the furnace cycles through start-up to shut-down via your thermostat.</li>
+                    <li>Check the supply (small grates in each room) and return air (large grates) temperature to make sure your thermostat is accurate.</li>
+                    <li>Clean and level your thermostat. For older thermostats this ensures proper function since many of them have liquid mercury switches. And always, this is aesthetically more eye pleasing.</li>
+                    <li>There is a safety switch on all furnace doors that “pops out” when the door is removed. Make sure this is unobstructed and clean</li>
+                    <li>Look at all the visible wiring and electrical connections for burns or unraveling/loose wire nuts or tape. </li>
+                    <li>Check the condition of your vent connection pipe and chimney for rust or gaps. Venting system parts can deteriorate over time.</li>
                 </ul>
             </div>
             <!-----heating maintenance-->
@@ -512,7 +488,7 @@
                 <img src="img/snowbank.jpg" alt="CHicago Snow" width="300" class="right-box" />
                 <p>Contact Midtown Mechanical to Request an Appointment to come to your residence or work location and run a thorough maintenance check on your A/C equipment. Call us at<span class="bold-red-text"> 773.722.8145</span> or request an appointment using our online.
                 </p>
-                <h4 class="title blue"><a href="#contact">Contact Form</a><img src="img/rightarrow.png" /></h4>
+                <h4 class="title blue"><a href="#contact">Contact Form</a></h4>
                 <p>
                     Midtown Mechanical will service all of your air conditioning needs whether installing a new system, maintaining
                     your current system or repairing most major brands of your existing air conditioner. We can provide you with a quality
@@ -522,22 +498,31 @@
             <!-- heating-sales -->
             <div class="tab-pane fade" id="heating-sales">
                 <h4 class="title red">New Furnace Sales & Installation</h4>
-                <h6>Midtown Mechanical repairs, sells and installs all major brands of furnaces into all neighborhoods of Chicago.  Our years of experience, have lead us to focus on a range of furnace products, that work best for smaller to larger indoor areas, from lower to higher price ranges.  We are equiped to service the total Chicago population of residential and commercial customers.
+                <h6 class="p-lr">Midtown Mechanical repairs, sells and installs all major brands of furnaces into all neighborhoods of Chicago.  Our years of experience, have lead us to focus on a range of furnace products, that work best for smaller to larger indoor areas, from lower to higher price ranges.  We are equiped to service the total Chicago population of residential and commercial customers.
                 </h6>
-                <div class="right-nobox">
-                    <img src="img/carrier-heating.jpg" class="right-box" alt="Carrier Heating" />
-                    <h4 class="text-center">Carrier Heating Products</h4>
-                </div>   
+                <br />
+                <h4 class="">Aprilaire Products</h4>
+                <img src="img/AprilaireWiThermo.jpg" class="p-3" alt="Carrier Thermostat image" />
+                <h4 class="text-center">Carrier Heating Products</h4>
+                <figure class="figure">
+                    <img src="img/carrierInfinityheatpump21.jpg" class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption text-center">Carrier Infinity Heat Pump 21</figcaption>
+                </figure>
+                 <figure class="figure">
+                    <img src="img/carrierfurnace.jpg" class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption text-center">Carrier furnace</figcaption>
+                </figure>
             </div>
         </div>
-    </section>   
+    </section>
+    <hr />   
     <section id="contact" class="page-section bg-blue white">
         <div class="">
             <div class="row">
+                <hr />
                 <div class="section-title">
                     <h2 class="title">Midtown Mechanical Corporation</h2>
-                    <hr />
-                </div>
+                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-6 pad-20 bottom-xs-pad-20">
@@ -545,10 +530,9 @@
                         <div class="col-md-6">
                             <div class="text-center pad-20">
                                 <img src="img/mmc-bldg-02.jpg" alt="MMC office facing Congress Expressway" width="230" />
-                                <p class="caption small text-center" style="padding-top:10px;">MMC Office</p>
-                            </div>
+                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 title text-center p-lr">
                             <h6>Tom Walker, owner</h6>
                             <h6> Midtown Mechanical Corp.</h6>
                             <h6> 4533 West Lexington</h6>
@@ -579,39 +563,6 @@
             </div>
         </div>
     </section>
-   <!-- <section id="careers" class="page-section">
-        <div class="section-title">
-            <h1 class="title">Midtown Mechanical Corporation</h1>
-            <h3 class="title">Job Opportunities</h3>
-        </div>
-        <div class="row">
-            <div class="col-md-6 bottom-xs-pad-20" data-animation="fadeInLeft">
-                <ul class="features-list features-list-left">
-                    <li class="features-list-item">
-                        <div class="features-content">
-                            <h4 class="text-center red">HVAC Services</h4>
-                            <p>
-                                Midtown Mechanical Corporation (MMC) is a Chicagoland based, full-service mechanical contractor specializing in residential, industrial and commercial HVAC, energy-efficient air conditioners, furnaces, climate control humidifiers, learning thermostat installation, boilers, custom sheet metal work and ductwork for Chicago and the surrounding areas.
-                            </p>
-                            <p>
-                                Tom Walker, owner of Midtown Mechanical Corporation and his loyal team have been responsively servicing our customer's "Total Indoor Air Comfort" &mdash; since 1994.
-                            </p>
-                            <p>Our trusting relationship and positive reputation with our customers has lead us to grow, and open HVAC job opportunities for service technicians, either experienced or looking for a career in HVAC.<br /> <a href="#jobs" class="red">Contact us through our MMC Job Form.</a>  </p>
-                            </div>
-                    </li>
-                    <li class="features-list-item">
-                        <div class="features-content">
-                            <h4 class="text-center red">HVAC Sheet Metal Fabrication</h4>
-                            <p>Metal fabrication is the building of metal structures by cutting, bending, and assembling processes. It is a value added process that involves the construction of machines and structures from various raw materials.  </p>
-                            <p>We have job openings for experienced sheet metal fabricators.<br /> <a href="#jobs" class="red">Contact us through our MMC Job Form.</a></p>
-                            </div>
-                    </li>
-                </ul>
-            </div>
-            <div id="jobs" class="col-md-6 text-center" data-animation="fadeInUp">
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeUK4t2SDh0FyQIM8ncjSOnpGX7xBXRU4Calo78mdlQC7xOxw/viewform?embedded=true" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe> </div>
-        </div>
-    </section> -->
     <footer>
         <div class="text-center">
             <a href="https://www.freeprivacypolicy.com/privacy/view/7f6f45b3dea2213e8584485697e251d6" target="_blank" class="privacy">
@@ -626,10 +577,6 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
      <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-    <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-    <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-    <script type="text/javascript" src="js/revolution-custom.js"></script>
-    <!--<script type="text/javascript" src="js/custom.js"></script>-->
     <script>
         //  jQuery('.tp-banner').css('visibility', 'visible' ).show().revolution()
     </script>
@@ -644,7 +591,6 @@
                 $('.navbar-collapse').collapse('hide');
         });
     </script>
-    
 </body>
 </html>
 
